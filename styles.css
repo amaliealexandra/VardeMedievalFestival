@@ -1,0 +1,267 @@
+
+h1 {
+  padding:20px;
+  padding-left: 30px;
+}
+
+h4 {
+padding: 20px;
+padding-bottom: 0px;
+padding-top: 40px;
+margin: 10px;
+font-weight:800;
+}
+
+body {
+    font-family: 'Abel';font-size: 18px;
+  }
+
+
+
+.fonttext {
+  padding-top: : 1px;
+  padding-left: 20px;
+  padding-bottom: 1px;
+  margin: 10px;
+  font-family: Frutiger std lT;
+  font-weight: Light;
+  font-size: 18px;
+
+}
+.text {
+  padding-top: : 1px;
+  padding-left: 20px;
+  padding-bottom: 1px;
+  margin: 10px;
+}
+
+
+.flex-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 10px;
+  padding-top:0px;
+  padding-bottom: 40px;
+}
+
+.color1 {
+    background-color: #344e5b;
+    width: 150px;
+    height: 50px;
+    padding: 20px;
+    padding-left: 1px;
+    margin: 10px;
+}
+
+.color2 {
+    background-color: #a56640;
+    width: 150px;
+    height: 50px;
+    padding: 20px;
+    padding-left: 1px;
+    margin: 10px;
+}
+
+.color3 {
+    background-color: #ebebeb;
+    width: 150px;
+    height: 50px;
+    padding: 20px;
+    padding-left: 1px;
+    margin:10px;
+}
+
+.colornr {
+  padding-top: 80px;
+}
+
+.div {
+  padding: 0px;
+  padding-top: 10px;
+}
+
+.p {
+  padding:20px;
+}
+.font1 {
+  font-size: 48px;
+  font-family: Frutiger;
+  color: #344e5b;
+  text-transform:capitalize;
+  padding: 20PX;
+}
+
+.font2 {
+  font-size: 72px;
+  font-family: Augusta;
+  color: #ebebeb;
+  padding: 20PX;
+}
+
+.font3 {
+  font-size: 48px;
+  font-family: Frutiger;
+  color: #a56640;
+  padding: 20PX;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1px;
+  padding: 10px;
+  padding-top:0px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.icon1 {
+    background-color: #344e5b;
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.icon2 {
+    background-color: #344e5b;
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    margin: 20px;
+}
+.icon3 {
+    background-color: #344e5b;
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    margin: 20px;
+}
+.icon4 {
+    background-color: #344e5b;
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    margin: 20px;
+}
+.icon5 {
+    background-color: #344e5b;
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.flex-container3 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1px;
+  padding: 10px;
+  padding-top:0px;
+  padding-bottom: 1px;
+  padding-left: 20px;
+}
+
+.button1 {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    padding-left: 10px;
+    margin: 10px;
+
+}
+
+.button2 {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    padding-left: 1px;
+    margin: 10px;
+}
+.button3 {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    padding-left: 1px;
+    margin: 10px;
+}
+
+
+.flex-container4 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1px;
+  padding: 10px;
+  padding-top:0px;
+  padding-bottom: 1px;
+  padding-left: 20px;
+}
+
+.logo1 {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    padding-left: 10px;
+    margin: 10px;
+    padding-bottom: 1px;
+
+}
+
+.logo2 {
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    padding-left: 1px;
+    padding-bottom: 1px;
+    margin: 10px;
+}
+
+.flex-container5 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1px;
+  padding: 10px;
+  padding-top:0px;
+  padding-bottom: 1px;
+  padding-left: 20px;
+}
+
+.logo3 {
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    padding-left: 1px;
+    padding-top: 1px;
+    margin: 10px;
+}
+
+.logo4 {
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    padding-left: 1px;
+    padding-top: 1px;
+    margin: 10px;
+}
+
+.logo5 {
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    padding-left: 1px;
+    padding-top: 1px;
+    margin: 10px;
+}
+
+.flex-containerfotoheader {
+  display: flex;
+  flex-wrap: wrap;
+  width:250px;
+  padding-left: 2px;
+    margin: auto;
+    margin-left: 22px;
+    margin-right: 10%;
+
+
+}
