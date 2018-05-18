@@ -1,0 +1,228 @@
+/* INSERT CSS FOR HEADER HERE */
+
+
+#header {
+    position: absolute;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #ebebeb;
+    height: 9em;
+    line-height: 7em;
+}
+
+
+
+#header h1 {
+  position: absolute;
+  right:35%;
+  top: 25%;
+  bottom:35%;
+  height: 2em;
+  line-height: 0.5em;
+  font-size: 1em;
+  font-weight: 300;
+  color: #344e5b;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Frutiger';font-size: 40px;
+}
+
+#header nav {
+    position: absolute;
+    right:0%;
+    top: 35%;
+    bottom:35%;
+    height: 2em;
+    line-height: 0.5em;
+
+}
+#header nav ul {
+    margin: 0;
+    padding-right: 2em;
+
+}
+
+#header nav ul li {
+    display: inline-block;
+    margin: 0.5em;
+
+}
+
+/* INSERT CSS FOR MAIN HERE */
+
+/* CSS FOR SECTION 1 */
+
+.box_banner {
+    background-color: none;
+    display:block;
+    text-align:center;
+
+}
+
+.contentgrid {
+    align-content: center;
+    align-items:center;
+    display: block;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: left;
+
+
+}
+
+.contentgrid_bannerimage {
+    background-position:100%;
+    background-size: contain;
+    display: block;
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-align: center;
+    padding-top: 2em;
+    padding-left: none;
+    padding-right: none;
+
+}
+
+.contentgrid_dato {
+    position:absolute;
+    top:25%;
+    left: 60%;
+    bottom:10%:
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-left: 0%;
+    padding-right: 5px;
+    font-family: 'Augusta';font-size: 62px; font-weight: 300px;letter-spacing: 4px;
+    color: #ebebeb;
+}
+
+.contentgrid_item img {
+    width: 100%;
+}
+
+/* CSS SECTION 2 MAP AND PROGRAM */
+
+.box_info {
+    background-color: ivory;
+    display:block;
+    text-align:center;
+
+
+}
+
+.contentgrid_info {
+    align-content: center;
+    align-items:left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+
+
+
+}
+
+
+.contentgrid_info_map {
+    background-position: 60%;
+    background-size: contain;
+    background-color: #a56640;
+    display: block;
+    flex-basis: 400px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-align: left;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+
+.contentgrid_info_program {
+    background-position: 60%;
+    background-size: contain;
+    background-color: #344e5b;
+    display: block;
+    flex-basis: 400px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-align:center;
+    margin-bottom: 0%;
+
+}
+
+h2 {
+    font-size: large;
+    font-weight: 400;
+    position: relative;
+    top:2%;
+    text-align: center;
+    font-family: 'Augusta';font-size: 72px;
+    color: #ebebeb;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: none;
+  margin-bottom: 2%;
+  margin-left: 5%;
+    margin-right: 5%;
+
+
+}
+
+.container {
+    position: relative;
+    width: 40%;
+    max-width: 400px;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+  display: flex;
+  flex-wrap: wrap;
+padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+/*
+.container:hover .img {
+    background-color: grey;
+    color: #a56640;
+}
+*/
+
+.container .btn {
+    position: absolute;
+    top: 35%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #344e5b;
+    color: #ebebeb;
+    font-family: 'Augusta';font-size: 30px;
+    padding: 1px 1px;
+    border: none;
+    cursor: none;
+    border-radius: 2px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.container .btn:hover {
+    background-color: #344e5b;
+    color: #a56640;
+}
