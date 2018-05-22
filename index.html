@@ -1,49 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="da">
 
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Middelalderfestival Varde">
-        <meta name="keywords" content="Middelalderfestival, Varde, festival, Købstadsjubilæet, aktiviteter, middelalderfolk, markedsplads, Varde å, riddere, ">
-        <title>Middelalderfestival Varde</title>
+        <meta name="keywords" content="Middelalderfestival, Varde, festival, Købstadsjubilæet, aktiviteter, middelalderfolk, markedsplads, Varde å, riddere, "><title>Middelalderfestival Varde</title>
 
     </head>
-    <body>
+
+<div id="container">
 
   <!-- INSERT LOGO,TITLE and language options HERE -->
-  <header>
+
+
+
    <header id="header">
-  <img src="img/logos/logo1.png" alt="logo" title="logo" width="140"  style="
-  padding-top: 0.8em;padding-left: 2em;">
 
-  <h1>MIDDELALDERFESTIVAL VARDE</h1>
 
-  <nav>
+   <div class="contentgrid_header_left">
+       <div class="flex_container_header_left">
+           <div class="container_header_logo">
+             <img src="img/logos/logo1.png" alt="logo" title="logo">
+           </div>
+       </div>
+   </div>
 
-  <ul>
-   <li><img src="img/flags/danishflag.png" alt="flag" title="danish" width="30"  style="
-   padding-top: em;padding-right: 0em;"></li>
-   <li><img src="img/flags/englflag.png" alt="flag" title="english" width="30"  style="
-   padding-top: 0em;padding-right: 0em;"></li>
-   <li><img src="img/flags/tyskflag.png" alt="flag" title="german" width="30"  style="
-   padding-top: 0em;padding-right: 0em;"></li>
-  </ul>
 
-  </nav>
-  </header>
-  </header>
+       <div class="contentgrid_header_center">
+        <div class="flex_container_header_center">
+              <div class="container_title">
+                 <h1>MIDDELALDERFESTIVAL VARDE</h1>
+           </div>
+              </div>
+       </div>
+
+
+
+       <div class="contentgrid_header_right">
+          <div class="flex_container_flags">
+
+             <a href="dansk/index.html"><img src="img/flags/danishflag.png" alt="Danish" title="danish"></a>
+
+             <a href="index.html"><img src="img/flags/englflag.png" alt="English" title="english"></a>
+
+             <a href="tysk/index.html"><img src="img/flags/tyskflag.png" alt="German" title="german"></a>
+
+
+      </div>
+  </div>
+
+
+
+
+
+        </header>
+
+
+
+         <div id="body">
 <!-- CONTENT -->
 
-    <main>
+
 
 <!-- SECTION 1-BANNER WITH DATO -->
         <section>
 <div class="box_banner">
     <div class="contentgrid">
         <div class="contentgrid_dato">
-            <div> 3.-6.august 2019</div>
+            <h2> 3.-6.august 2019</h2>
             </div>
 
         <div class="contentgrid_bannerimage">
@@ -69,7 +95,7 @@
             <div class="contentgrid_info_program">
 
             <h2>Programmer</h2>
-             
+
              <div class="flex-container">
 
                <div class="container">
@@ -101,22 +127,285 @@
 
 </section>
 
-  <!-- SECTION 3- PICTURE SLIDER -->
-        
+  <!-- SECTION 3- FLAGS -->
+
         <section>
-            
+        <div class="box_flags">
+            <img src="img/icons/flagsgray.png" alt="flags" style="width:100%">
+              <h2>Billeder fra 2017</h2>
+            </div>
+
         </section>
 
-  <!-- SECTION 4-INFO ON FESTIVAL -->
+
+  <!-- SECTION 4- PICTURE SLIDER -->
+
+        <section>
+
+            <!-- Images used to open the lightbox -->
+
+
+
+            <div class="row">
+
+
+               <div class="column">
+                 <img src="img/img/img10small.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+               </div>
+
+             <div class="column">
+                <img src="img/img/img11small.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+             </div>
+
+             <div class="column">
+                <img src="img/img/img13small.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+             </div>
+
+             <div class="column">
+                <img src="img/img/img15small.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+             </div>
+
+
+     </div>
+
+
+          <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+
+ <div class="modal-content">
+
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="img/img/img10.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="img/img/img11.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="img/img/img13.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="img/img/img15.jpg" style="width:100%">
+    </div>
+
+
+
+
+    <!-- Next/previous controls -->
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+  <!--
+    <div class="column">
+      <img class="demo" src="img/img/img10.jpg" onclick="currentSlide(1)" alt="Musik">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img/img/img15.jpg" onclick="currentSlide(2)" alt="Ridderer">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img/img/img12.jpg" onclick="currentSlide(3)" alt="Sjovt">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img/img/img13.jpg" onclick="currentSlide(4)" alt="Mad">
+    </div> -->
+
+   </div>
+  </div>
+
+
+
+
+
+
+        </section>
+
+  <!-- SECTION 5-INFO ON FESTIVAL -->
+
        <section>
+           <div class="box_about">
+        <section class="aboutvarde">
+            <div class="aboutbox">
+
+        <h1>Varde købstad fylder 577 år</h1>
+
+        <p>I 1442 bekræftede kong Christoffer af Bayern Varde Bys købstadsrettigheder,
+           det er i år 577 år siden. Byen er ganske vist ældre, men
+            året 1442 markerer på mange måder et vigtigt skel i byens historie.</p>
+
+        <p>Købstadsjubilæet skal naturligvis markeres. Fejringen foregår i
+        dagene 3. august - 6. august  med ”middelalder” som tema.
+        Middelalderen har inspireret til et væld af spændende oplevelser
+        og aktiviteter for hele familien.</p>
+
+        <p>Torsdag og fredag foregår i Varde midtby, hvor temaet frit   fortolkes
+           af kommunens kulturinstitutioner og byens foreninger. Den autentiske
+           middelalderstemning kan du opleve lørdag og søndag blandt
+            riddere og middelalderfolk på markedspladsen ved Varde Å.</p>
+
+            <p>  Vi håber, I sætter et kryds i kalenderen og vil være med til at
+           gøre Vardes købstadsfejring både festlig og folkelig.
+        </p>
+
+            </div>
+               </section>
+        </div>
       </section>
 
-</main>
 
  <!-- INSERT FOOTER HERE -->
+          <div id="footer">
+
+            <div class="contentgrid_footer">
+
+
+            <div class="contentgrid_footer_left">
+
+            <div class="flex_container_left">
+                <div class="container_logo">
+                <img src="img/logos/vardekommunehvid.png" alt="logo" title="logo" width="100%">
+                </div>
+               <!--
+                <div class="container_icon">
+                    <a><img src="img/icons/telefonhvid.png" alt="button" style="width:100%"></a>
+                <a><img src="img/icons/mail.png" alt="button" style="width:100%"></a>
+                </div> -->
+
+            <div class="container_address">
+                <div>Varde Kommune</div>
+                <div>Bytoften 2</div>
+                <div>6800 Varde</div>
+                <div>79 94 68 00</div>
+                <div><a href="mailto:vardekommune@varde.dk">vardekommune@varde.dk</a></div>
+                 <!--<div><a><img src="img/icons/telefonhvid.png" alt="button" style="width:7%">
+                 <button class="btn_address">79 94 68 00</button></a></div>
+
+
+
+                 <div><img src="img/icons/mail.png" alt="button" style="width:7%">
+                 <button class="btn_address_email"></button> </div> -->
+                </div>
+                </div>
+                </div>
+
+         <!--INSERT RIGHT FOOTER HERE -->
+
+                <div class="contentgrid_footer_right">
+                    <div class="flex_container_right">
+
+                       <div class="container_signup">
+                           <ul>
+                           <li><span style="font-size: 18px">Tilmeld dig til:</span></li>
+                           <li><a href="mailto:vardekommune@varde.dk">Frivillige</a></li>
+                           <li><a href="mailto:vardekommune@varde.dk">Bod</a></li>
+                           </ul>
+
+
+                           <div class="container_socialmedia">
+                                <div> <a href="https://www.facebook.com/kulturugen/">Følg med os</a></div>
+
+                               <div> <a href="https://www.facebook.com/kulturugen/"><img src="img/icons/facebook.png" alt="Go to facebook" title="Facebook" width="100%"></a>
+                               </div>
+                     </div>
+                            </div>
+                    </div>
+
+
+                </div>
+
+
+
+                </div>
+
+
+            </div>
+
+
+             </div>
+
+  </div>
+
+        <script>
+
+// JAVASCRIPT FOR HEADER
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+
+
+document.getElementById("header").style.top = "0";
+  }
+
+else {
+
+document.getElementById("header").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+// JAVASCRIPT FOR PICTURE GALLERY
+
+// Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+//function currentSlide(n) {
+  //showSlides(slideIndex = n);
+//}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
 
 
 
 
-    </body>
 </html>
